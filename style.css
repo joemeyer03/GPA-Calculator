@@ -1,0 +1,344 @@
+/* css for the body */
+body {
+	font-family: 'Lato', sans-serif; /* sets the font */
+    background-color: rgb(30,32,33);/*#cecece; /* set the background color */
+    color: white;/*black;*/
+}
+
+/* the boxes that surround the input for each file */
+#mp1 { 
+	margin-left: 10px;
+	/*background: grey;*/
+    background: #404245;
+    color: white;
+	padding: 10px 20px 10px 20px;
+	width: 480px;
+	border-radius: 20px;
+	float: left;
+}
+#mp2 {
+	margin-left: 10px;
+	/*background: grey;*/
+    background: #404245;
+    color: white;
+	padding: 10px 20px 10px 20px;
+	width: 650px;
+	border-radius: 20px;
+	float: left;
+}
+#mp3 {
+	margin-left: 10px;
+	/*background: grey;*/
+    background: #404245;
+    color: white;
+	padding: 10px 20px 10px 20px;
+	width: 830px;
+	border-radius: 20px;
+	float: left;
+}
+#mp4 {
+	margin-left: 10px;
+	/*background: grey;*/
+    background: #404245;
+    color: white;
+	padding: 10px 20px 10px 20px;
+	width: 1000px;
+	border-radius: 20px;
+	float: left;
+}
+
+/* the css for the classes before the input */ 
+p {
+    margin-top: 10px;
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:20px;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+/* the css for the textboxes where grades are entered */
+#textbox {
+	height: 16px;
+    width: 160px;
+	font-size: 14px;
+	border-radius: 1px;
+	padding-left: 5px;
+    border-color: #949494;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* the css to line up the honors checkboxes */
+#honorsqs {
+    margin-left: 65px;
+}
+
+/* the css to line up the void checkboxes */
+#voidqs {
+    margin-left: 95px;
+}
+
+/* the css to line up the textboxes for mp1 */
+input[name="mpone1"] {
+    margin-left: 20px;
+}
+input[name="mpone2"] {
+    margin-left: 33px;
+}
+input[name="mpone3"] {
+    margin-left: -16px;
+}
+input[name="mpone4"] {
+    margin-left: 17px;
+}
+input[name="mpone5"] {
+    margin-left: 17px;
+}
+input[name="mpone6"] {
+    margin-left: 3px;
+}
+input[name="mpone7"] {
+    margin-left: 14px;
+}
+input[name="mpone8"] {
+    margin-left: 5px;
+}
+input[name="mpone9"] {
+    margin-left: 5px;
+}
+
+/* the css to line up the textboxes for mp2 */
+input[name="mptwo1"] {
+    margin-left: 20px;
+}
+input[name="mptwo3"] {
+    margin-left: 33px;
+}
+input[name="mptwo5"] {
+    margin-left: -16px;
+}
+input[name="mptwo7"] {
+    margin-left: 17px;
+}
+input[name="mptwo9"] {
+    margin-left: 17px;
+}
+input[name="mptwo11"] {
+    margin-left: 3px;
+}
+input[name="mptwo13"] {
+    margin-left: 14px;
+}
+input[name="mptwo15"] {
+    margin-left: 5px;
+}
+input[name="mptwo17"] {
+    margin-left: 5px;
+}
+
+/* the css to line up the textboxes for mp3 */
+input[name="mpthree1"] {
+    margin-left: 20px;
+}
+input[name="mpthree4"] {
+    margin-left: 33px;
+}
+input[name="mpthree7"] {
+    margin-left: -16px;
+}
+input[name="mpthree10"] {
+    margin-left: 17px;
+}
+input[name="mpthree13"] {
+    margin-left: 17px;
+}
+input[name="mpthree16"] {
+    margin-left: 3px;
+}
+input[name="mpthree19"] {
+    margin-left: 14px;
+}
+input[name="mpthree22"] {
+    margin-left: 5px;
+}
+input[name="mpthree25"] {
+    margin-left: 5px;
+}
+
+/* the css to line up the textboxes for mp4 */
+input[name="mpfour1"] {
+    margin-left: 20px;
+}
+input[name="mpfour5"] {
+    margin-left: 33px;
+}
+input[name="mpfour9"] {
+    margin-left: -16px;
+}
+input[name="mpfour13"] {
+    margin-left: 17px;
+}
+input[name="mpfour17"] {
+    margin-left: 17px;
+}
+input[name="mpfour21"] {
+    margin-left: 3px;
+}
+input[name="mpfour25"] {
+    margin-left: 14px;
+}
+input[name="mpfour29"] {
+    margin-left: 5px;
+}
+input[name="mpfour33"] {
+    margin-left: 5px;
+}
+
+/* the tabs at the top */
+ul { /* the box around the tabs */
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #9a1118;
+}
+li {
+	float: left;
+}
+li a { /* the words */
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* what appears after clicking the done button
+#after_submit {
+	visibility: hidden;
+	background: #ff5459;
+	position: absolute;
+	top: 210.25%;
+	right: 68.3%;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+	float: right;
+	margin-left: 20px;
+	font-size: 30px;
+}
+*/
+
+#after_submit {
+		background: white;/*#ffffff;*/
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 5px;
+		width: 230px;
+		height: 80px;
+		border-radius: 30px;
+		font-size: 30px;
+		line-height: 1.6;
+}
+
+#message {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 20px;
+    padding: 6px 12px 6px 12px;
+}
+
+/*css for the button*/
+#button {
+	background: #9a1118; /*sets the color*/
+	border: none;
+	border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+	color: white; /*sets the font color*/
+	font-size: 16px; /*sets the font size*/
+	transition-duration: .5s; /*sets the time between the button css and the css when hovering over it*/
+    float: left;
+	margin-top: -50px; /*5*/
+}
+
+/*css for the button hover*/
+#button:hover { 
+	background: white; /*sets the inside to white*/
+	border: 1px solid #9a1118; /*sets the border color*/
+	color: #9a1118; /*sets the font color*/
+	cursor: pointer;
+}
+
+#split { 
+    background: #9a1118; /*sets the color*/
+	border: none;
+	border-radius: 5px;
+    padding: 2px 2px 2px 2px;
+	color: white; /*sets the font color*/
+	font-size: 12px; /*sets the font size*/
+	transition-duration: .5s; /*sets the time between the button css and the css when hovering over it*/
+	/*margin-bottom: 5px;*/
+    float: left;
+    margin-top: -60px;
+}
+
+#split:hover { 
+	background: white; /*sets the inside to white*/
+	border: 1px solid #9a1118; /*sets the border color*/
+	color: #9a1118; /*sets the font color*/
+	cursor: pointer;
+}
+
+#undo {
+    background: #9a1118; /*sets the color*/
+	border: none;
+	border-radius: 5px;
+    padding: 2px 2px 2px 2px;
+	color: white; /*sets the font color*/
+	font-size: 12px; /*sets the font size*/
+	transition-duration: .5s; /*sets the time between the button css and the css when hovering over it*/
+	/*margin-bottom: 5px;*/
+    float: left;
+}
+
+#undo:hover {
+	background: white; /*sets the inside to white*/
+	border: 1px solid #9a1118; /*sets the border color*/
+	color: #9a1118; /*sets the font color*/
+	cursor: pointer;
+}
+
+#afterSplit {
+    visibility: hidden;
+}
+
+#clear {
+    background: #9a1118; /*sets the color*/
+	border: none;
+	border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+	color: white; /*sets the font color*/
+	font-size: 16px; /*sets the font size*/
+	transition-duration: .5s; /*sets the time between the button css and the css when hovering over it*/
+    float: left;
+    margin-top: -50px;
+    margin-left: 132px;
+}
+
+#clear:hover { 
+	background: white; /*sets the inside to white*/
+	border: 1px solid #9a1118; /*sets the border color*/
+	color: #9a1118; /*sets the font color*/
+	cursor: pointer;
+}
+
+p3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#indexText {
+    width: 1000px;
+}

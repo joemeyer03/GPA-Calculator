@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <body onload="setMP2()">
+
+    <head>
+            <title>GPA Calculator</title>
+            <link href="style.css" rel="stylesheet" type="text/css"/>
+            <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+            <script src = "main.js"></script>
+    </head>
+
+    <!--the tabs at the top-->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="MP1.html">Marking Period One</a></li>
+        <li><a href="MP2.html">Marking Period Two</a></li>
+        <li><a href="MP3.html">Marking Period Three</a></li>
+        <li><a href="MP4.html">Marking Period Four/Final</a></li>
+        <li><a href="help.html">Help</a></li>
+    </ul>
+
+    <!--the header-->
+    <h1>Now let's enter your grades</h1>
+
+    <!--the box around the input-->
+    <form id = "mp2" name = "mp2">
+        <!--the headers above the inputs-->
+        <p3>
+            Class
+            <span style="margin-left:9.3em">Grades </span>
+            <span style="margin-left:8em">Honors/AP </span>
+            <span style="margin-left:2em">Void </span>
+        </p3>
+
+        <!--input row for english-->
+        <p class = "questions">English: </p>
+        <input id = "textbox" type = "text" name = "mptwo1" placeholder = "Enter number here.">
+        <input id = "textbox" type = "text" name = "mptwo2" placeholder = "Enter number here.">
+        <input type="checkbox" id = "honorsqs" name="honors1" value="Honors">
+        <input type="checkbox" id = "voidqs" name="void1" value="Void">
+
+        <!--input row for math-->
+        <p class = "questions">Math: </p>
+        <input id = "textbox" type = "text" name = "mptwo3" placeholder = "Enter number here.">
+        <input id = "textbox" type = "text" name = "mptwo4" placeholder = "Enter number here.">
+        <input type="checkbox" id = "honorsqs" name="honors2" value="Honors">
+        <input type="checkbox" id = "voidqs" name="void2" value="Void">
+
+        <!--input row for gym/health-->
+        <p class = "questions">Gym/Health: </p>
+        <input id = "textbox" type = "text" name = "mptwo5" placeholder = "Enter number here.">
+        <input id = "textbox" type = "text" name = "mptwo6" placeholder = "Enter number here.">
+        <input type="checkbox" id = "honorsqs" name="honors3" value="Honors">
+        <input type="checkbox" id = "voidqs" name="void3" value="Void">
+
+        <!--input row for science-->
+        <p class = "questions">Science: </p>
+        <input id = "textbox" type = "text" name = "mptwo7" placeholder = "Enter number here.">
+        <input id = "textbox" type = "text" name = "mptwo8" placeholder = "Enter number here.">
+        <input type="checkbox" id = "honorsqs" name="honors4" value="Honors">
+        <input type="checkbox" id = "voidqs" name="void4" value="Void">
+
+        <!--input row for history-->
+        <p class = "questions">History: </p>
+        <input id = "textbox" type = "text" name = "mptwo9" placeholder = "Enter number here.">
+        <input id = "textbox" type = "text" name = "mptwo10" placeholder = "Enter number here.">
+        <input type="checkbox" id = "honorsqs" name="honors5" value="Honors">
+        <input type="checkbox" id = "voidqs" name="void5" value="Void">
+
+        <!--input row for language-->
+        <p class = "questions">Language: </p>
+        <input id = "textbox" type = "text" name = "mptwo11" placeholder = "Enter number here.">
+        <input id = "textbox" type = "text" name = "mptwo12" placeholder = "Enter number here.">
+        <input type="checkbox" id = "honorsqs" name="honors6" value="Honors">
+        <input type="checkbox" id = "voidqs" name="void6" value="Void">
+
+        <!--input row for elective-->
+        <p class = "questions">Elective: </p>
+        <input id = "textbox" type = "text" name = "mptwo13" placeholder = "Enter number here.">
+        <input id = "textbox" type = "text" name = "mptwo14" placeholder = "Enter number here.">
+        <input type="checkbox" id = "honorsqs" name="honors7" value="Honors">
+        <input type="checkbox" id = "voidqs" name="void7" value="Void">
+
+        <!--input row for academy-->
+        <p class = "questions">Academy: </p>
+        <input id = "textbox" type = "text" name = "mptwo15" placeholder = "Enter number here.">
+        <input id = "textbox" type = "text" name = "mptwo16" placeholder = "Enter number here.">
+        <input type="checkbox" id = "honorsqs" name="honors8" value="Honors">
+        <input type="checkbox" id = "voidqs" name="void8" value="Void">
+        <div id = "afterSplit">
+            <p class = "questions">Academy: </p>
+            <input id = "textbox" type = "text" name = "mptwo17" placeholder = "Enter number here.">
+            <input id = "textbox" type = "text" name = "mptwo18" placeholder = "Enter number here.">
+            <input type="checkbox" id = "honorsqs" name="honors9" value="Honors">
+            <input type="checkbox" id = "voidqs" name="void9" value="Void"><br>
+            <input id="undo" type="button" name = "undoButton" value="Undo" onclick="undoSplit();"><br>
+        </div>
+
+        <input id="split" type="button" name = "splitButton" value="Split Academy" onclick="splitAcademy();"><br>
+        <input id = "button" type = "button" value = "I'm finished!" onclick = "main();">
+
+        <input id="clear" type="button" name = "clearButton" value="clear" onclick= "clearInputMP2()"><br>
+
+        <!-- creates space where output is displayed-->
+		<h2>Results:</h2>
+		<div id="after_submit">
+			<h2 id="message"></h2>
+		</div>
+    </form>
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br>
+
+</html>
