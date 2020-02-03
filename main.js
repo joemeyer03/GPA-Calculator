@@ -1,8 +1,9 @@
 
 //state variables
 var honorsScale = [0.0, 0.7, 1.0, 2.3, 2.7, 3.0, 3.3, 3.7, 4.0, 4.3, 4.7, 5.0, 5.3];
-var generalScale = [0.0, 0.7, 1.0, 1.3, 1.7, 2.0, 2.3, 2.7, 3.0, 3.3, 3.7, 4.0, 4.0];
-var generalsScale = [0.0, 0.7, 1.0, 1.3, 1.7, 2.0, 2.3, 2.7, 3.0, 3.3, 3.7, 4.0, 4.0];
+var MCSTUnweightedScale = [0.0, 0.7, 1.0, 1.3, 1.7, 2.0, 2.3, 2.7, 3.0, 3.3, 3.7, 4.0, 4.3];
+var CollegeUnweightedScale = [0.0, 0.7, 1.0, 1.3, 1.7, 2.0, 2.3, 2.7, 3.0, 3.3, 3.7, 4.0, 4.0];
+var generalScale = MCSTUnweightedScale;
 var grades = [];
 var honorsCheck = [];
 var voidCheck = [];
